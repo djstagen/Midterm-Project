@@ -2,18 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveBack : MonoBehaviour
+public class DetectCollision : MonoBehaviour
 {
-    [SerializeField] private float speed = 30;
     // Start is called before the first frame update
     void Start()
     {
         
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        //It will work with rigidBody
+
+        Destroy(gameObject);
+        Destroy(other.gameObject);
+    }
+
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.back * Time.deltaTime * speed);
+        
     }
 }
