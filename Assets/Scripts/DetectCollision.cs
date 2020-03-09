@@ -15,7 +15,7 @@ public class DetectCollision : MonoBehaviour
         //It will work with rigidBody
 
         Destroy(gameObject);
-        Destroy(other.gameObject);
+        //Destroy(other.gameObject);
     }
 
     // Update is called once per frame
