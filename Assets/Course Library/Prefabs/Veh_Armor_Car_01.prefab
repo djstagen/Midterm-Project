@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 5305919762850430764}
   - component: {fileID: 5450731202882954471}
   - component: {fileID: -7359893987918073994}
-  - component: {fileID: -7964490891130001588}
+  - component: {fileID: 3242833390733273805}
   m_Layer: 0
   m_Name: Veh_Armor_Car_01
   m_TagString: BadObject
@@ -435,7 +435,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.4149134, y: 3.8037806, z: 6.7103386}
   m_Center: {x: 0.00000011920929, y: 2.6350589, z: 0.010605693}
---- !u!114 &-7964490891130001588
+--- !u!114 &3242833390733273805
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -444,7 +444,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8542681334461447852}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c34f8a99b938f264695ef62800d65a35, type: 3}
+  m_Script: {fileID: 11500000, guid: f9c4e276ec78e5c47b62cb7ddf5e77f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8542681334461455890

@@ -21,6 +21,7 @@ public class DetectCollision : MonoBehaviour
         //It will work with rigidBody
         Destroy(gameObject);
         scoreManager.IncrementScore();
+        
 
         //This will not work with any tag.
        /* if (Object.CompareTag("Object"))

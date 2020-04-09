@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public float horizontalInput;
     public float speed = 10.0f;
-    public float xRange = 8.0f;
+    public float xRange = 14.0f;
     public float zRange = 8.0f;
     public float zAxisInput;
 
@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
 
         if (transform.position.z < -zRange)
         {
-            transform.position = new Vector3(-transform.position.x, transform.position.y, zRange);
+            transform.position = new Vector3(transform.position.x, transform.position.y, -zRange);
         }
         if (transform.position.z > zRange)
         {

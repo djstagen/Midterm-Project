@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     private float spawnRangeX = 20;
-    private float spawnPosZ = 10;
+    private float spawnPosZ = 20;
     private float spawnPosY = 0.5f;
 
 

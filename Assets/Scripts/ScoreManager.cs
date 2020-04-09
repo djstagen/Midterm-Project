@@ -7,11 +7,15 @@ public class ScoreManager : MonoBehaviour
 {
     [SerializeField] Text scoreText;
     [SerializeField] private int score;
+    [SerializeField] Text YouWin;
+    [SerializeField] Text YouLose;
     // Start is called before the first frame update
     void Start()
     {
         score = 0;
         UpdateText();
+
+
     }
 
     public void IncrementScore()
@@ -33,6 +37,18 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     private void UpdateText()
     {
-        scoreText.text = $"Sanity/Comfort: {score}";
+        scoreText.text = $"Comfort: {score}";
+    }
+
+    private void Update()
+    {
+        if (score >49)
+        {
+            YouWin.gameObject.SetActive(true);
+        }
+        if (score < -10)
+        {
+            YouLose.gameObject.SetActive(true);
+        }
     }
 }
