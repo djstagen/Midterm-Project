@@ -6,7 +6,7 @@ public class SpawnManager : MonoBehaviour
 {
     private float spawnRangeX = 20;
     private float spawnPosZ = 20;
-    private float spawnPosY = 0.5f;
+    private float spawnPosY = 0.0f;
 
 
     [SerializeField] private float spawnInterval = 1.5f;

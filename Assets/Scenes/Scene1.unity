@@ -942,7 +942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnInterval: 0.1
-  startDelay: 2
+  startDelay: 10
   objectPrefabs:
   - {fileID: 8542681334461447852, guid: 7dde5e49db2400e49a284f5dbfd9c3f9, type: 3}
   - {fileID: 9182093543519625081, guid: f267b0758883204429a320573cf417fc, type: 3}
@@ -955,7 +955,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778380607}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3, y: 4.9, z: 67.1}
+  m_LocalPosition: {x: -2.3, y: 0, z: 67.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
