@@ -9,6 +9,9 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] private int score;
     [SerializeField] Text YouWin;
     [SerializeField] Text YouLose;
+    [SerializeField] Button RestartButton;
+    [SerializeField] Button QuitButton;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,10 +48,14 @@ public class ScoreManager : MonoBehaviour
         if (score >49)
         {
             YouWin.gameObject.SetActive(true);
+            RestartButton.gameObject.SetActive(true);
+            QuitButton.gameObject.SetActive(true);
         }
         if (score < -10)
         {
             YouLose.gameObject.SetActive(true);
+            RestartButton.gameObject.SetActive(true);
+            QuitButton.gameObject.SetActive(true);
         }
     }
 }
